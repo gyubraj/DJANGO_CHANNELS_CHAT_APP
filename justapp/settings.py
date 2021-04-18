@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-cwmb+=^1ov9!f%kr3p&foyvsc2^hf&s+xc1le%sp_i3gxc+k%8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1',
+                 'yubrajchat.herokuapp.com']
 
 
 # Application definition
